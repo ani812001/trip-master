@@ -1,0 +1,22 @@
+/* General styling for the about container */
+.about-container {
+  margin: 0rem 28rem;
+  text-align: start;
+}
+
+/* Styling for the heading in the about container */
+.about-container h1 {
+  margin-bottom: 1rem; /* Use margin instead of padding */
+}
+
+/* Styling for the paragraph in the about container */
+.about-container p {
+  margin-bottom: 2rem; /* Use margin instead of padding */
+}
+
+/* Media query for screens with a maximum width of 850px */
+@media screen and (max-width: 850px) {
+  .about-container {
+      margin: 4rem 2rem;
+  }
+}
